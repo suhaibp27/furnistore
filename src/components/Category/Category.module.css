@@ -1,0 +1,109 @@
+.cWrapper, .cContainer {
+    height: 40vh;
+}
+
+.para {
+    color: #DFA878;
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.para:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: -50px;
+    right: 110px;
+    height: 0.5em;
+    border-top: 2px solid #DFA878;
+    z-index: -1;
+  }
+
+.para:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 110px;
+    right: -50px;
+    height: 0.5em;
+    border-top: 2px solid #DFA878;
+    z-index: -1;
+  }
+
+.heading {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.cItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.cCard {
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.cCard:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.cIconContainer {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cIcon {
+    width: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.cIcon svg {
+    width: 90%;
+    height: auto;
+    color: #DFA878;
+}
+
+.cName {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .cItems {
+        gap: 1rem;
+    }
+
+    .cCard {
+        width: 8rem;
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .cCard {
+        width: 5rem;
+    }
+
+    .cName {
+        font-size: 0.75rem;
+    }
+}
