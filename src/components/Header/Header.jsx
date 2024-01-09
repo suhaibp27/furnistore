@@ -24,22 +24,22 @@ const Header = () => {
           }
         >
           <li>
-            <a href="">Home</a>
+            <p>Home</p>
           </li>
           <li>
-            <a href="">About</a>
+            <p>About</p>
           </li>
           <li>
-            <a href="">Shop</a>
+            <p>Shop</p>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <p>Contact Us</p>
           </li>
           <li>
-            <a className={styles.cart}>
+            <p className={styles.cart}>
               <IoCartOutline size={30} />
-              <p>2</p>
-            </a>
+              <span>2</span>
+            </p>
           </li>
         </ul>
 

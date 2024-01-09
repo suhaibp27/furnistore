@@ -70,3 +70,9 @@
 .star {
     color: goldenrod;
 }
+
+@media screen and (max-width: 568px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+}

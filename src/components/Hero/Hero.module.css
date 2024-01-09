@@ -30,7 +30,7 @@
 }
 
 .heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
 }
 
@@ -51,8 +51,11 @@
     }
 
     .heroContent {
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
         width: 100%;
-        /* top: -150px; */
     }
 
     .heading {

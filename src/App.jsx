@@ -40,7 +40,10 @@ function App() {
       <Header />
       <Hero />
       <CardSection />
-      <Category changeHandler={categoryChangeHandler} />
+      <Category
+        selectedCategory={selectedCategory}
+        changeHandler={categoryChangeHandler}
+      />
       {items.length == 0 ? <h2>Loading...</h2> : <Products items={items} />}
       <Footer />
     </div>
