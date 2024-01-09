@@ -15,7 +15,7 @@
     background-image: url(../../assets/heroBg.jpg);
     background-size: cover;
     background-position: center;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .heroContent {
@@ -30,7 +30,7 @@
 }
 
 .heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -42,19 +42,6 @@
 @media screen and (min-width: 1900px) {
     .heroContent {
         left: 400px;
-    }
-}
-
-@media screen and (max-width: 1536px) {
-    .heroContent {
-        top: -150px;
-        left: 50%;
-        transform: translateX(-50%);
-        align-items: center;
-    }
-
-    .heroBg {
-        background-image: url(../../assets/heroBgTab.jpg);
     }
 }
 
