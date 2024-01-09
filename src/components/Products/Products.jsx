@@ -23,6 +23,9 @@ const Products = ({ items }) => {
                 {[...Array(item.rating)].map((star, i) => (
                   <FaStar className={styles.star} size={15} key={i} />
                 ))}
+                {[...Array(5 - item.rating)].map((star, i) => (
+                  <FaStar className={styles.greyStar} size={15} key={i} />
+                ))}
               </div>
             </div>
           ))}
