@@ -9,6 +9,8 @@
   --blue: #4066ff;
   --lightBlue: #eeeeff;
   --shadow: 0px 3px 4px 3px rgba(204, 214, 254, 0.25);
+  --background: #f8f7f5;
+  /* --background: #f8f7f5; */
 }
 
 * {

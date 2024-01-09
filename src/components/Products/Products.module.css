@@ -1,3 +1,7 @@
+.productWrapper {
+    background-color: var(--background);
+}
+
 .para {
     color: #DFA878;
     font-size: 1.25rem;
@@ -45,6 +49,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid lightgray;
+    background-color: #fff;
     box-shadow: var(--shadow);
     cursor: pointer;
     transition: 0.3s ease;

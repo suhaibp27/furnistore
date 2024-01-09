@@ -1,3 +1,7 @@
+.cWrapper {
+    background-color: var(--background);
+}
+
 .cContainer  {
     justify-content: space-between;
 }

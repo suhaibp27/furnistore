@@ -1,5 +1,6 @@
 .cWrapper, .cContainer {
     height: 40vh;
+    background-color: var(--background);
 }
 
 .para {
@@ -60,9 +61,11 @@
 
 .cIconContainer {
     width: 100%;
+    /* background-color: #f5f4f4; */
     border: 1px solid lightgray;
     padding: 5px;
     margin-bottom: 10px;
+    box-shadow: var(--shadow);
 }
 
 .cIcon {
