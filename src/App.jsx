@@ -8,6 +8,7 @@ import { sofaSets } from "./utils/furnistore-data";
 import { lamps } from "./utils/furnistore-data";
 import { tables } from "./utils/furnistore-data";
 import { useEffect, useState } from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [items, setItems] = useState(chairs);
@@ -41,6 +42,7 @@ function App() {
       <CardSection />
       <Category changeHandler={categoryChangeHandler} />
       {items.length == 0 ? <h2>Loading...</h2> : <Products items={items} />}
+      <Footer />
     </div>
   );
 }
