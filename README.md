@@ -1,4 +1,4 @@
-# Furnistore
+# Furnistore - A furniture display ecommerce studio
 
 ## Overview
 
